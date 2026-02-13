@@ -16,7 +16,16 @@ export default function Footer() {
               © {new Date().getFullYear()} {site.name}. All rights reserved.
             </p>
             <p className="mt-4 text-xs text-white/55">
-              Developed by Yusuf Ahmad.
+              Developed by{" "}
+              <Link
+                href="https://www.linkedin.com/in/yusufahmad786/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/80 underline underline-offset-4 hover:text-white"
+              >
+                Yusuf Ahmad
+              </Link>
+              .
             </p>
           </div>
 
