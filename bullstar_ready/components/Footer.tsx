@@ -27,6 +27,18 @@ export default function Footer() {
               </Link>
               .
             </p>
+            <p className="mt-4 text-xs text-white/55">
+              Developed by{" "}
+              <Link
+                href="https://www.linkedin.com/in/yusufahmad786/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/80 underline underline-offset-4 hover:text-white"
+              >
+                Yusuf Ahmad
+              </Link>
+              .
+            </p>
           </div>
 
           <div className="grid gap-2 text-sm">
