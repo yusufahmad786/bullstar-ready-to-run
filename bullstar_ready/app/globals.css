@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 220 26% 6%;
+  --card: 220 22% 10%;
+  --text: 0 0% 98%;
+  --muted: 220 10% 70%;
+  --border: 220 18% 18%;
+  --gold: 44 96% 64%;
+  --gold2: 35 92% 60%;
+  --accent: 260 86% 68%;
+  --accent2: 170 75% 48%;
+}
+
+.dark {
+  --bg: 220 26% 6%;
+  --card: 220 22% 10%;
+  --text: 0 0% 98%;
+  --muted: 220 10% 70%;
+  --border: 220 18% 18%;
+  --gold: 44 96% 64%;
+  --gold2: 35 92% 60%;
+  --accent: 260 86% 68%;
+  --accent2: 170 75% 48%;
+}
+
+* { -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; }
+body {
+  background: hsl(var(--bg));
+  color: hsl(var(--text));
+  overflow-x: hidden;
+}
+
+::selection { background: rgba(255, 215, 120, 0.25); }
+
+@layer components {
+  .glass {
+    background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+    border: 1px solid rgba(255,255,255,.08);
+    backdrop-filter: blur(10px);
+  }
+  .luxe-border {
+    position: relative;
+  }
+  .luxe-border:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(255,215,120,.45), rgba(180,120,255,.28), rgba(60,220,180,.22));
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
