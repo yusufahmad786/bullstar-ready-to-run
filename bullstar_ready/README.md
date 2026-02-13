@@ -1,5 +1,7 @@
-# Bullstar Realty Website (Next.js + Tailwind)
+# Bullstar Realty Website (Developed on Next.js + Tailwind)
 
+## Developed by Yusuf Ahmad
+## Welcome to Real Estate Website
 ## Requirements
 - Node.js (you already have it)
 - Windows users: if `npm` fails in PowerShell due to Execution Policy, either:
