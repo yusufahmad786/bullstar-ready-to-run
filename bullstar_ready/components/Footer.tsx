@@ -14,6 +14,7 @@ export default function Footer() {
             </p>
             <p className="mt-4 text-xs text-white/55">
               © {new Date().getFullYear()} {site.name}. All rights reserved.
+              Developed by Yusuf Ahmad.
             </p>
           </div>
 
