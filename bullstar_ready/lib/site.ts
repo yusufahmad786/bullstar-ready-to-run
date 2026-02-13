@@ -3,8 +3,8 @@ export const site = {
   tagline: "Your Trust, Our Commitment.",
   headline:
     "15+ Years of Premium Real Estate Solutions in Noida — Trusted Advisory. Smart Investments.",
-  phone: "+91 9838898582",
-  whatsapp: "+919838898582",
+  phone: "+91 8860098411",
+  whatsapp: "+918860098411",
   email: "bullstarrealty@example.com",
   location: "Noida, Uttar Pradesh, India",
   socials: {

@@ -39,7 +39,7 @@ export const projects: Project[] = [
       "Premium commercial destination positioning",
       "Built for investors: strong unit economics + exit potential",
     ],
-    primaryCta: { label: "Call to Book", href: "tel:+919838898582" },
+    primaryCta: { label: "Call to Book", href: "tel:+918860098411" },
     secondaryCta: { label: "WhatsApp Now", href: "https://wa.me/919838898582" },
   },
   {
