@@ -13,7 +13,19 @@ export default function Footer() {
               Premium real estate consultancy in Noida — residential, commercial, and smart investment advisory.
             </p>
             <p className="mt-4 text-xs text-white/55">
-              © {new Date().getFullYear()} {site.name}. All rights reserved.
+              {new Date().getFullYear()} {site.name}. All rights reserved.
+            </p>
+            <p className="mt-4 text-xs text-white/55">
+              Developed by{" "}
+              <Link
+                href="https://www.linkedin.com/in/yusufahmad786/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/80 underline underline-offset-4 hover:text-white"
+              >
+                Yusuf Ahmad
+              </Link>
+              .
             </p>
           </div>
 
