@@ -130,7 +130,7 @@ export default function LeadModal({
               {status === "error" && "⚠️ Something failed. Try again or WhatsApp us."}
             </div>
             <div className="flex gap-3">
-              <Button href="https://wa.me/919838898582" variant="soft">
+              <Button href="https://wa.me/918860098411" variant="soft">
                 WhatsApp
               </Button>
               <Button onClick={form.handleSubmit(submit)}>
